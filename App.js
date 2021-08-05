@@ -1,12 +1,16 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
+import ActivationNumber from "./components/ActivationNumber";
+import CodePhone from "./components/CodePhone";
 import SignIn from "./components/SignIn";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignIn />
+      {/* <SignIn /> */}
+      {/* <ActivationNumber /> */}
+      <CodePhone />
       <StatusBar style="auto" />
     </View>
   );
