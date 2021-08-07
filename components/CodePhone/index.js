@@ -61,7 +61,7 @@ const CodePhone = () => {
         style={styles.button}
       >
         <Pressable>
-          <Text style={styles.textbtn}>Login</Text>
+          <Text style={styles.textbtn}>Continue</Text>
         </Pressable>
       </LinearGradient>
     </View>
